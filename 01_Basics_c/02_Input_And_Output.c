@@ -5,4 +5,5 @@ int main(){
     printf("Enter a radious:");
     scanf("%f",&radious);
     printf("Area of a circle is:%f",3.14*radious);
+    return 0;
 }
