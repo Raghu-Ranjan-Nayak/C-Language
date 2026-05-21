@@ -1,3 +1,4 @@
+//Check length of string
 #include<stdio.h>
 #include<string.h>
 int main(){
