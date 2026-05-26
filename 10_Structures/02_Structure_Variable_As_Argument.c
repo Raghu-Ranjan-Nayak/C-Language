@@ -1,4 +1,4 @@
-//Structure variable as argument
+//Passes structure variable as argument
 #include<stdio.h>
 struct point{
     int x;
