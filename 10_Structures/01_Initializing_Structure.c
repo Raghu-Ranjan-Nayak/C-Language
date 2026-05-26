@@ -1,5 +1,5 @@
 //Print name,roll number and cgpa of a student by using structure
-//Structure member as argument
+//Passes structure member as argument
 #include<stdio.h>
 struct student{
     char name[100];
