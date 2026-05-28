@@ -1,3 +1,4 @@
+//print values by structure
 //Passes structure variable as argument
 #include<stdio.h>
 struct point{
