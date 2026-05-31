@@ -5,7 +5,7 @@ struct node{
     int data;
     struct node *link;
 };
-struct node print_data(struct node *head);
+struct node* print_data(struct node *head);
 int main(){
     struct node *head = (struct node*)malloc(sizeof(struct node));
     head -> data = 45;
@@ -24,7 +24,7 @@ int main(){
     print_data(head);
     return 0;
  }
-  struct node print_data(struct node *head){
+  struct node* print_data(struct node *head){
     if(head == NULL){
         printf("linked list is empty");
     }
