@@ -31,11 +31,16 @@ int main(){
     return 0;
 }
 struct node* del_first(struct node *head){
+    if(head == NULL){
+        printf("list is already empty");
+    }
+    else{
     struct node *temp;
     temp = head;
     head = head -> link;
     free(temp);
     temp = NULL;
+    }
 
     return head;
 }
