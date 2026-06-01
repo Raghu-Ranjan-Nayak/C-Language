@@ -1,4 +1,4 @@
-//Deleting thet node at a certain position from single linked list
+//Deleting thet node at a 2nd position from single linked list
 #include<stdio.h>
 #include<stdlib.h>
 struct node{
