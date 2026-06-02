@@ -32,15 +32,15 @@ int main(){
     return 0;
 }
 struct node* rev_list(struct node *head){
-    struct node *temp1 = NULL;
-    struct node *temp2 = head;
+    struct node *prev = NULL;
+    struct node *next = head;
     while(head != NULL){
-        temp2 = head -> link;
-        head -> link = temp1;
-        temp1 = head;
-        head = temp2;
+        next = head -> link;
+        head -> link = prev;
+        prev = head;
+        head = next;
     }
-    head = temp1;
+    head = prev;
     return head;
 
 }
