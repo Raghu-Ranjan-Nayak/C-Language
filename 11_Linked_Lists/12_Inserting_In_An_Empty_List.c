@@ -1,4 +1,4 @@
-//Inserting in an empty doubly linked list
+//Inserting  a node in an empty doubly linked list
 #include<stdio.h>
 #include<stdlib.h>
 struct node{
