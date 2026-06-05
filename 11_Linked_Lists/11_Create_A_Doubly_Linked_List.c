@@ -1,4 +1,4 @@
-//Create a double linked list
+//Create a double linked list to store a data
 #include<stdio.h>
 #include<stdlib.h>
 struct node{
