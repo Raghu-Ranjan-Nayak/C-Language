@@ -1,4 +1,4 @@
-//Inserting a node at the end of a doubly linked list
+//Create an doubly linked list
 #include<stdio.h>
 #include<stdlib.h>
 struct node{
