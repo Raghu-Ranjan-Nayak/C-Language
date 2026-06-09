@@ -1,4 +1,4 @@
-//Create  a anode of the circular doubly linked list
+//Create  a node of the circular doubly linked list
 #include<stdio.h>
 #include<stdlib.h>
 struct node{
