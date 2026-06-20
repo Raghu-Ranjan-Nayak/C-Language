@@ -1,4 +1,4 @@
-//Deliting the first node of a circular doubly linked list
+//Deliting the last node of a circular doubly linked list
 #include<stdio.h>
 #include<stdlib.h>
 struct node{
