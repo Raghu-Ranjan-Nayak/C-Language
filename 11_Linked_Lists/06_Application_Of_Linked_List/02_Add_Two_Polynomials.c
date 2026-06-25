@@ -31,6 +31,7 @@ struct node* insert(struct node* head,float co,int ex){
     newp -> expo = ex;
     newp -> link = NULL;
 
+    //if there is no node in the list  or given exponent is greater than exponent of first node 
     if(head == NULL || ex > head -> expo){
         newp -> link = head;
         head = newp;
