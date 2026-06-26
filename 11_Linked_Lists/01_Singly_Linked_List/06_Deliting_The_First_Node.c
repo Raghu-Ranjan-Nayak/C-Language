@@ -21,6 +21,12 @@ int main(){
     current -> link = NULL;
     head -> link -> link = current;
 
+    current = (struct node*)malloc(sizeof(struct node));
+    current -> data = 5;
+    current -> link = NULL;
+    head -> link -> link -> link = current;
+     
+
     head = del_first(head);
     current = head;
 
