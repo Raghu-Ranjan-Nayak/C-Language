@@ -136,6 +136,7 @@ void print(struct node* head){
         printf("%d", temp -> data);
     }
 }
+//This function is for displaying the result
 void back2num(struct node* head){
     struct node* temp = head;
     printf("\nResult = ");
