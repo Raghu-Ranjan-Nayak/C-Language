@@ -123,6 +123,7 @@ struct node* creatll(struct node* head,int n){
     }
     return head;
 }
+//This function is for printing the data
 void print(struct node* head){
     struct node* temp = head;
     if(head == NULL){
