@@ -107,6 +107,7 @@ struct node* reversell(struct node* head){
     }
     return head;
 }
+//Add nodes for every number enter by the user
 struct node* add_node(struct node* head,int val){
     struct node* newnode = (struct node*)malloc(sizeof(struct node));
     newnode -> data = val;
