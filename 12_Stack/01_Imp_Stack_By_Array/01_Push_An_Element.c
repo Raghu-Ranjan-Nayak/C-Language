@@ -1,3 +1,4 @@
+//Push an element on stack
 #include<stdio.h>
 #include<stdlib.h>
 #define MAX 4
