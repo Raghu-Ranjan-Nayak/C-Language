@@ -1,4 +1,4 @@
-//This programm is the top mos element is same but the first element is changing
+//This programm is for the top most element is same but the first element is changing
 #include<stdio.h>
 #include<stdlib.h>
 #define MAX 5
