@@ -1,4 +1,4 @@
-//This programm is for to print the prime factir of number
+//This programm is for to print the prime factor of a number
 #include<stdio.h>
 #include<stdlib.h>
 #define MAX 4
